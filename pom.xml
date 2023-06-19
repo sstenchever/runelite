@@ -45,7 +45,7 @@
 
 		<maven.javadoc.skip>true</maven.javadoc.skip>
 		<checkstyle.skip>true</checkstyle.skip>
-		<glslang.path></glslang.path>
+		<glslang.path/>
 
 		<rs.version>211</rs.version>
 	</properties>
@@ -136,7 +136,7 @@
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
-				<version>23.2-jre</version>
+				<version>32.0.0-jre</version>
 			</dependency>
 			<dependency>
 				<groupId>org.projectlombok</groupId>
